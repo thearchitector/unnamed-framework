@@ -1,2 +1,2 @@
 # unnamed-framework
-A Python web framework, not a straitjacket and not a house.
+A Python backend web framework, not a straitjacket and not a house.
