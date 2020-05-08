@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "unnamed-framework"
+version = "0.1.0"
+description = "A Python backend web framework, not a straitjacket and not a house."
+authors = ["Elias Gabriel <eliasfgabriel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+black = "^19.10b0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.black]
+target-version = ['py38']
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
