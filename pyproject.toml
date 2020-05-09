@@ -7,6 +7,8 @@ authors = ["Elias Gabriel <eliasfgabriel@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 black = "^19.10b0"
+Jinja2 = "^2.11.2"
+starlette = "^0.13.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
