@@ -14,4 +14,4 @@
   * Actions contexts should have easy access to the current database connection within these contexts (no global DB object).
   * Actions contexts should manage their own database connection, so users don't have to remember to open and then close the connection they're dealing with.
     * peewee context manager decorator (<https://docs.peewee-orm.com/en/latest/peewee/database.html#context-managers>) wraps around abstract method in application base model.
-  * [gevent](https://www.gevent.org/) integration for seamless async database I/O.
+  * [gevent](https://www.gevent.org/) integration for seamless async database I/O (<https://docs.peewee-orm.com/en/latest/peewee/database.html#async-with-gevent>).
